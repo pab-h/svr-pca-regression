@@ -92,17 +92,16 @@ Para cada um dos **6 regressores** (SVR puro + 5 com PCA), foram calculados:
 * **R² ≈ 0.989**
 * **MSE ≈ 4.07**
 
-Excelente ajuste, servindo como referência para comparação.
-
 ### SVR + PCA
 
-| Componentes | R²    | MSE   | Observação                     |
-| -- | -- | -- |  |
-| 1           | ~0.84 | ~58.7 | Alta perda de informação       |
-| 2           | ~0.85 | ~56.7 | Pequena melhora                |
-| 3           | ~0.99 | ~4.8  | Desempenho próximo ao original |
-| 4           | ~0.99 | ~4.2  | Ganhos marginais               |
-| 5           | ~0.99 | ~4.07 | Variância total preservada     |
+| Componentes |  | MSE | Observação |
+| --- | --- | --- | --- |
+| 1 | ~0.84 | ~58.7 | Alta perda de informação |
+| 2 | ~0.85 | ~56.7 | Pequena melhora |
+| **3** | **~0.99** | **~4.8** | **Desempenho próximo ao original** |
+| 4 | ~0.99 | ~4.2 | Ganhos marginais |
+| 5 | ~0.99 | ~4.07 | Variância total preservada |
+
 
 ## 📝 Discussão
 
